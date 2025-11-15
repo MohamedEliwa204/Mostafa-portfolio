@@ -123,24 +123,21 @@ To customize the recipient email, update in both:
 3. Update email addresses, phone numbers, LinkedIn URL
 4. Modify education, experience, and skills sections
 
-### Change Profile Photo (Optional)
-To add a profile photo:
-1. Add an image to the folder (e.g., `profile.jpg`)
-2. In `index.html`, replace the hero icon section:
+### Change Profile Photo
+The portfolio now includes a professional profile photo in the hero section:
+- **Current Image**: `image.jpg`
+- **Features**: 
+  - Circular frame with gold border
+  - Smooth hover animations
+  - Rotating border effect
+  - Fully responsive design
+  - Professional box shadow
+
+To change the profile photo:
+1. Replace `image.jpg` with your new image (recommended size: 500x500px or larger, square format)
+2. Keep the same filename `image.jpg`, or update the filename in `index.html`:
    ```html
-   <div class="hero-image">
-       <img src="profile.jpg" alt="Mostafa Elsayed">
-   </div>
-   ```
-3. Add CSS styling in `styles.css`:
-   ```css
-   .hero-image img {
-       width: 300px;
-       height: 300px;
-       border-radius: 50%;
-       object-fit: cover;
-       border: 5px solid var(--accent-color);
-   }
+   <img src="your-new-image.jpg" alt="Your Name">
    ```
 
 ### Update Color Scheme
